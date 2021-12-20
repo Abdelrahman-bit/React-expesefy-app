@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render the header components correctly 1`] = `
+<header>
+  <h1>
+    Expencive
+  </h1>
+  <ul>
+    <li>
+      <NavLink
+        to="/"
+      >
+        Home
+      </NavLink>
+    </li>
+    <li>
+      <NavLink
+        to="/creat"
+      >
+        creat
+      </NavLink>
+    </li>
+    <li>
+      <NavLink
+        to="/help"
+      >
+        help
+      </NavLink>
+    </li>
+  </ul>
+</header>
+`;
