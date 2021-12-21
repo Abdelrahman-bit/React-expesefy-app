@@ -53,7 +53,7 @@ module.exports = (env, argv) => {
         devServer: {
             static: {
               directory: path.join(__dirname, 'public'),
-              publicPath: '/dist/'
+              publicPath: '/dist/',
             },
             historyApiFallback: true
           },
